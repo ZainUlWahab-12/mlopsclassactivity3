@@ -1,0 +1,15 @@
+### 1. How does CI/CD improve collaboration in ML teams?
+CI/CD automates the building, testing, and deployment of ML models, ensuring consistency and version control. It allows data scientists, engineers, and DevOps teams to work together seamlessly by tracking changes, running tests automatically, and reducing manual errors.
+
+### 2. What happens if the evaluation score is below a defined threshold?
+If the evaluation score falls below the threshold, the pipeline halts deployment and flags the model for review. This prevents underperforming models from reaching production and triggers notifications or retraining steps.
+
+### 3. How can retraining or drift detection be integrated into this workflow?
+Retraining and drift detection can be added as automated pipeline stages. A monitoring component checks model performance and data drift over time; if drift is detected, the pipeline triggers retraining with updated data and re-evaluation before redeployment.
+
+### 4. What steps are needed to deploy this workflow to production (e.g., AWS, Kubernetes)?
+- **Containerize** the workflow using Docker.  
+- **Orchestrate** with tools like Kubernetes or Amazon EKS for scaling and reliability.  
+- **Set up CI/CD pipelines** using GitHub Actions, Jenkins, or AWS CodePipeline.  
+- **Use cloud storage and services** (e.g., S3 for data, SageMaker for model hosting).  
+- **Monitor** performance and automate alerts for failures or drifts.
