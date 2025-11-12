@@ -49,3 +49,8 @@ Artifacts and Docker builds will appear automatically.
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
 - [MLOps with GitHub Actions](https://mlops.community/github-actions-for-mlops/)
 - [Continuous Delivery for Machine Learning (CD4ML)](https://martinfowler.com/articles/cd4ml.html)
+
+## Name
+Name: Zain Ul Wahab
+Roll No: 22i-0491
+Section: Ai-A
